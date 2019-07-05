@@ -1,0 +1,27 @@
+{
+    "name": "oscarricardosan/_session_",
+    "description": "Small package for handling session vars.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "oscarricardosan",
+            "email": "oscarricardosan@gmail.com"
+        }
+    ],
+    "require": {
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-4": {
+            "Oscarricardosan\\_Session_\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Oscarricardosan\\_Session_\\Tests\\": "tests"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable" : true
+}
