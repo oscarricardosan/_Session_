@@ -1,5 +1,5 @@
 {
-    "name": "oscarricardosan/_session_",
+    "name": "oscarricardosan/session",
     "description": "Small package for handling session vars.",
     "license": "MIT",
     "authors": [
