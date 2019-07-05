@@ -108,9 +108,12 @@ index_product.php
 
 
 store_product.php
-
-_MSession_::setFlashError('ID no encontrado');
-_MSession_::setFlashMessage('Vuelve la proxima ;)');
+<?php 
+    _MSession_::setFlashError('ID no encontrado');
+    _MSession_::setFlashMessage('Vuelve la proxima ;)');
+    //Go back, index_product.php
+    header("Location: {$_SERVER['HTTP_REFERER']}");
+?>
 
 ```
 
