@@ -104,6 +104,14 @@ index_product.php
 ?>
 </ul>
 
+
+
+
+store_product.php
+
+_MSession_::setFlashError('ID no encontrado');
+_MSession_::setFlashMessage('Vuelve la proxima ;)');
+
 ```
 
 
